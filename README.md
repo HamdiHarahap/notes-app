@@ -51,6 +51,6 @@ The **Notes App** is a simple and user-friendly application that allows users to
 - **Delete a Note:** Click the "Delete" button on a note to remove it from the list.
 - **Filter by Category:** You can filter notes by category to make it easier to find specific notes.
 
-### Notes App Interface
+## Notes App Interface
 
 ![notes-app (2)](https://github.com/user-attachments/assets/ec6e19e2-f221-4606-ae57-fd1c2b101295)
