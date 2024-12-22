@@ -1,9 +1,5 @@
 # Notes App
 
-# Notes App
-
-![Notes App Screenshot](https://github.com/user-attachments/assets/ec6e19e2-f221-4606-ae57-fd1c2b101295)
-
 The **Notes App** is a simple and user-friendly application that allows users to create, view, update, and delete notes. With a clean interface, this app helps users manage their personal notes and tasks effectively. Each note can be categorized, titled, and have detailed descriptions to ensure that all important information is stored securely and can be easily retrieved.
 
 ## Features
