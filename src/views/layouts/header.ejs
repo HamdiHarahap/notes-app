@@ -1,0 +1,25 @@
+<header
+	class="flex items-center justify-center px-64 py-5 bg-white drop-shadow-md"
+>
+	<nav class="w-fit flex gap-10">
+		<input
+			type="text"
+			placeholder="Search"
+			class="w-[50rem] bg-gray-200 px-6 py-2 rounded-lg"
+		/>
+		<% if (activePage === '') { %>
+		<p
+			class="bg-gray-300 py-2 px-6 rounded-lg text-white font-semibold cursor-pointer"
+		>
+			Add
+		</p>
+		<% } else { %>
+
+		<a
+			href="/note"
+			class="bg-blue-500 py-2 px-6 rounded-lg text-white font-semibold"
+			>Add</a
+		>
+		<% } %>
+	</nav>
+</header>

@@ -1,0 +1,41 @@
+<section>
+	<h1 class="text-2xl font-semibold">Update Note</h1>
+	<% if (msg) { %>
+	<p
+		class="font-semibold bg-red-500 px-4 py-2 rounded-lg w-[25rem] mt-2 text-white"
+	>
+		<%= msg %>
+	</p>
+	<% } %>
+	<form action="/note/<%= note.id %>?_method=PUT" method="POST" class="mt-6 flex flex-col gap-4">
+		<input
+			name="title"
+			type="text"
+			placeholder="Title"
+			class="bg-transparent outline-none w-[25rem] text-3xl font-semibold"
+			value="<%= note.title %>"
+		/>
+		<textarea
+			name="body"
+			id=""
+			class="w-[25rem] h-[15rem] bg-transparent border-none outline-none"
+			placeholder="Body"
+		>
+<%= note.body %></textarea
+		>
+
+		<select name="category" id="" class="w-[10rem] bg-transparent outline-none">
+            <option value="" <%= note.category === '' ? 'selected' : '' %>>Category</option>
+            <option value="Personal" <%= note.category === 'Personal' ? 'selected' : '' %>>Personal</option>
+            <option value="Home" <%= note.category === 'Home' ? 'selected' : '' %>>Home</option>
+            <option value="Business" <%= note.category === 'Business' ? 'selected' : '' %>>Business</option>
+        </select>
+        
+		<button
+			type="submit"
+			class="px-4 py-2 bg-blue-500 w-fit font-semibold text-white rounded-lg mt-2"
+		>
+			Submit
+		</button>
+	</form>
+</section>

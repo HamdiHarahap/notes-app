@@ -1,0 +1,23 @@
+{
+	"name": "notes-app",
+	"version": "1.0.0",
+	"description": "",
+	"main": "index.js",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1",
+		"start": "nodemon src/app.js"
+	},
+	"keywords": [],
+	"author": "",
+	"license": "ISC",
+	"dependencies": {
+		"ejs": "^3.1.10",
+		"express": "^4.21.2",
+		"express-ejs-layouts": "^2.5.1",
+		"method-override": "^3.0.0",
+		"nodemon": "^3.1.9"
+	},
+	"devDependencies": {
+		"tailwindcss": "^3.4.17"
+	}
+}
