@@ -31,18 +31,24 @@ The **Notes App** is a simple and user-friendly application that allows users to
    ```bash
    git clone https://github.com/your-username/notes-app.git
 
+   ```
+
 2. Install dependecies
 
    ```bash
    cd notes-app
    npm install
-   
-4. Run the app
+
+   ```
+
+3. Run the app
 
    ```bash
    npm run start
-   
-6. Open the app in your browser at http://localhost:3000
+
+   ```
+
+4. Open the app in your browser at http://localhost:3000
 
 ### Usage
 
@@ -59,6 +65,4 @@ The **Notes App** is a simple and user-friendly application that allows users to
 
 ## Mobile Phone
 
-![phones](https://github.com/user-attachments/assets/b0d9eda9-685b-409c-beb5-976330e275cf)
-
-
+<img src="https://github.com/user-attachments/assets/b0d9eda9-685b-409c-beb5-976330e275cf" width="300">
