@@ -53,5 +53,9 @@ The **Notes App** is a simple and user-friendly application that allows users to
 
 ## Notes App Interface
 
+## Desktop
 ![notes-app (3)](https://github.com/user-attachments/assets/2ccaba7a-ad9a-4681-afe5-6fbf0147f89a)
+
+## Mobile Phone
+![phone](https://github.com/user-attachments/assets/e28adab4-628a-49eb-bc8e-5a8a329eef07)
 
