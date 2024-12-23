@@ -1,0 +1,17 @@
+.show {
+	display: flex;
+}
+
+.close {
+	display: none;
+}
+
+/* Sembunyikan jika layar kurang dari atau sama dengan 520px */
+.wide-screen-only {
+	display: none;
+}
+
+/* Tampilkan hanya untuk layar lebih dari 520px */
+body.wide-screen .wide-screen-only {
+	display: block;
+}

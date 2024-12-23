@@ -1,6 +1,8 @@
 <div class="mt-4 flex justify-start flex-wrap gap-8">
 	<% notes.forEach(note => { %>
-	<div class="w-[19.5rem] bg-white rounded-lg flex flex-col px-4 py-2">
+	<div
+		class="w-[19.5rem] bg-white rounded-lg flex flex-col px-4 py-2 max-[520px]:w-full"
+	>
 		<div class="flex justify-between items-center w-full">
 			<% if (note.category === 'Home') { %>
 			<p class="text-xs text-white font-semibold bg-purple-400 p-2 rounded-xl">

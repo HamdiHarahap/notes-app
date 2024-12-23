@@ -1,7 +1,10 @@
 <header
-	class="flex items-center justify-center px-64 py-5 bg-white drop-shadow-md"
+	class="flex items-center justify-center px-64 py-5 bg-white drop-shadow-md max-[520px]:px-5"
 >
-	<nav class="flex gap-10 items-center justify-between w-full">
+	<nav
+		id="nav-wide"
+		class="gap-10 items-center justify-between hidden w-full min-[520px]:flex max-[520px]:hidden"
+	>
 		<h1 class="font-semibold text-3xl">Notes App</h1>
 		<% if (activePage === '') { %>
 		<p
@@ -17,5 +20,30 @@
 			>Add</a
 		>
 		<% } %>
+	</nav>
+	<nav
+		id="nav-narrow"
+		class="w-full flex flex-col wide-screen min-[520px]:hidden"
+	>
+		<div class="flex justify-between items-center w-full">
+			<h1 class="font-semibold text-3xl">Notes App</h1>
+			<i data-feather="menu" id="menu"></i>
+		</div>
+		<div id="list-menu" class="close">
+			<%- include('navigation') %> <% if (activePage === '') { %>
+			<p
+				class="bg-gray-300 py-2 px-6 rounded-lg text-white font-semibold cursor-pointer max-[520px]:mt-6"
+			>
+				Add
+			</p>
+			<% } else { %>
+
+			<a
+				href="/note"
+				class="bg-blue-500 py-2 px-6 rounded-lg text-white font-semibold max-[520px]:mt-6"
+				>Add</a
+			>
+			<% } %>
+		</div>
 	</nav>
 </header>
